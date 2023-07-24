@@ -1,6 +1,15 @@
 
+
 from datetime import datetime
 import random
+import mysql.connector 
+
+db_config = {
+    'host': 'your_database_host',
+    'user': 'your_database_username',
+    'password': 'your_database_password',
+    'database': 'your_database_name',
+}
 # Electronic devices available in the store with their prices, descriptions, and specifications
 devices = {
     "Laptop": {
